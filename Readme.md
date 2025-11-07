@@ -31,12 +31,12 @@ in the following structure.
 
 Feel free to add other outputs (like exoskeleton, exoskeleton_controller) to this. Everything you forget to add will be treated as empty.
 
-Tot nondim outputs based on:
+Nondim output
 
 - frequency:  sqrt(g/l)
 - moments:    m*g*l
 - forces:     m*g
-- Pmetab:     m*g^1.5*sqrt(l)
+- power:     m*g^1.5*sqrt(l)
 
 ## identifier for simulation
 
@@ -73,6 +73,10 @@ We use an unique identifier for each experimental condition and the connected pr
 - walking on slope x with added mass y at z m/s: **gomenuka2014_slope_xpct_ykmh_mass_zpctmass**
 - example for walking on slope 7 percent at 3 km/h and 25% added mass: gomenuka_slope_7pct_3kmh_25pctmass
 
+**Schertzer2014**
+
+- example: schertzer2014_1p11ms_ankle_0kg for walking at 1.11ms with 0kg added mass to the ankle
+
 **Gait Speeds**
 
 - walking at x m/s: **gait_speeds_xms**
@@ -80,10 +84,8 @@ We use an unique identifier for each experimental condition and the connected pr
 
 ## Matlab tools
 
-
-
 read_json.m: tool to read json file to matlab structure
 
 write_json.m: tool to write json file from matlab structure
 
-example_read_write_json.m: example script to write json file
+example_read_write_json.m: example script to write json file (also convenient to copy-past inputs for json file)

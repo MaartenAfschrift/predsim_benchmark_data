@@ -1,23 +1,39 @@
 
 % frist create a datastructure which we will export to a json file
 
-% note that we expact that all data in benchmark is nondim
+
+% to nondim
+% frequency: sqrt(g/l)
+% moments: m*g*l
+% forces: m*g
+% Power: m*g^1.5*sqrt(l)
+
+
+% subject properties
 benchmark.subject_height    = 5;
 benchmark.subject_mass      = 250; % to do check in publication
 benchmark.prop_leg_length   = 0.5; % optional
 benchmark.leglength         = benchmark.subject_height *  benchmark.prop_leg_length;
 
-benchmark.grf_r = randn(100,3);
-benchmark.grf_l = randn(100,3);
-benchmark.grf_r_std = randn(100,3);
-benchmark.grf_l_std = randn(100,3);
+% nondim
+g = 9.81;
+nondim_freq = sqrt(g/ benchmark.leglength);
+nondim_moment= benchmark.subject_mass * g * benchmark.leglength;
+nondim_force = benchmark.subject_mass * g;
+nondim_Power = benchmark.subject_mass * g^(3/2) * sqrt(benchmark.leglength);
 
-benchmark.id                = randn(100,9);
-benchmark.id_std            = randn(100,9);
+% mocap data
+benchmark.grf_r = randn(100,3) ./nondim_force;
+benchmark.grf_l = randn(100,3)./nondim_force;
+benchmark.grf_r_std = randn(100,3)./nondim_force;
+benchmark.grf_l_std = randn(100,3)./nondim_force;
+
+benchmark.id                = randn(100,9)./nondim_moment;
+benchmark.id_std            = randn(100,9)./nondim_moment;
 benchmark.ik                = randn(100,9);
 benchmark.ik_std            = randn(100,9);
-benchmark.Pmetab_mean       = 400; % no data
-benchmark.stride_frequency  = 0.2;
+benchmark.Pmetab_mean       = 400 ./ nondim_Power;
+benchmark.stride_frequency  = 0.2 ./ nondim_freq;
 benchmark.identifier        = 'big_friendly_giant_2ms';
 
 % header files
