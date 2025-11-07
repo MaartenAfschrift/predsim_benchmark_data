@@ -1,0 +1,22 @@
+{
+    "subject_height":1.82, 
+    "subject_mass":74.16, 
+    "prop_leg_length":0.5, 
+    "leglength":0.91, 
+    "grf":[], 
+    "grf_std":[], 
+    "id":[], 
+    "id_std":[], 
+    "ik":[], 
+    "ik_std":[], 
+    "Pmetab_mean":0.091093429785912783, 
+    "stride_frequency":null, 
+    "identifier":"browning2008_pelvis12kg", 
+    "slope":0, 
+    "speed":1.25, 
+    "added_mass":12, 
+    "study":"browning2008", 
+    "ik_header":[], 
+    "id_header":[], 
+    "grf_header":[]
+}

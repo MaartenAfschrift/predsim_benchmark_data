@@ -1,0 +1,22 @@
+{
+    "subject_height":1.78, 
+    "subject_mass":71.6, 
+    "prop_leg_length":0.5, 
+    "leglength":0.89, 
+    "grf":[], 
+    "grf_std":[], 
+    "id":[], 
+    "id_std":[], 
+    "ik":[], 
+    "ik_std":[], 
+    "Pmetab_mean":0.065930659969340222, 
+    "stride_frequency":[], 
+    "identifier":"gomenuka2014_0pct_2kmh_0pctmass", 
+    "slope":0, 
+    "speed":0.55555555555555558, 
+    "added_mass":0, 
+    "study":"gomenuka2014", 
+    "ik_header":[], 
+    "id_header":[], 
+    "grf_header":[]
+}

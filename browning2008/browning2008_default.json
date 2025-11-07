@@ -1,0 +1,22 @@
+{
+    "subject_height":1.82, 
+    "subject_mass":74.16, 
+    "prop_leg_length":0.5, 
+    "leglength":0.91, 
+    "grf":[], 
+    "grf_std":[], 
+    "id":[], 
+    "id_std":[], 
+    "ik":[], 
+    "ik_std":[], 
+    "Pmetab_mean":0.079834691273047154, 
+    "stride_frequency":0.2680210255418739, 
+    "identifier":"browning2008_default", 
+    "slope":0, 
+    "speed":1.25, 
+    "added_mass":0, 
+    "study":"browning2008", 
+    "ik_header":[], 
+    "id_header":[], 
+    "grf_header":[]
+}
