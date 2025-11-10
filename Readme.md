@@ -75,7 +75,7 @@ We use an unique identifier for each experimental condition and the connected pr
 
 **Schertzer2014**
 
-- example: schertzer2014_1p11ms_ankle_0kg for walking at 1.11ms with 0kg added mass to the ankle
+- example: **schertzer2014_1p11ms_ankle_0kg** for walking at 1.11ms with 0kg added mass to the ankle
 
 **Gait Speeds**
 
