@@ -1,6 +1,6 @@
 ## Benchmark data
 
-This repository contains data of several experimental studies that were used in the first (of hopefully many :) ) predsim benchmarking paper (ref). 
+This repository contains data of several experimental studies that were used in the first (of hopefully many :) ) predsim benchmarking paper (https://doi.org/10.1371/journal.pcbi.1012713). 
 
 ## Content datafiles
 
