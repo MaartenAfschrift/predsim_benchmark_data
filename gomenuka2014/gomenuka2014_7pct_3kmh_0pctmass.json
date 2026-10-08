@@ -15,6 +15,7 @@
   "slope": 7,
   "speed": 0.83333333333333326,
   "added_mass": 0,
+  "location_added_mass": "torso",
   "study": "gomenuka2014",
   "ik_header": [],
   "id_header": [],

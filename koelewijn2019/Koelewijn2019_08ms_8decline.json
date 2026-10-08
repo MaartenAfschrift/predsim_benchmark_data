@@ -9421,6 +9421,7 @@
   "slope": -8,
   "speed": 0.8,
   "added_mass": 0,
+  "location_added_mass": "",
   "study": "koelewijn2019",
   "ik_header": [
     "pelvis_tilt",

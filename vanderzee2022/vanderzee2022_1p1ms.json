@@ -14286,5 +14286,6 @@
   "slope": 0,
   "speed": 1.1,
   "added_mass": 0,
+  "location_added_mass": "",
   "study": "vanderzee2022"
 }
