@@ -12,7 +12,7 @@
   "ik": [],
   "ik_std": [],
   "Pmetab_mean": 0.2745155872337855,
-  "stride_frequency": 0.060240767350428062,
+  "stride_frequency": null,
   "ik_header": [],
   "id_header": [],
   "grf_header": [],
